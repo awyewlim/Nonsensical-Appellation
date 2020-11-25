@@ -16,7 +16,7 @@ ix_to_char = { i:ch for i,ch in enumerate(chars) }
 
 parameters = model(data, ix_to_char, char_to_ix, num_iterations = 100000, names = 0, vocab_size = vocab_size, verbose = True)
 
-print('Welcome to Gaming Name Generator!' + '\n')
+print('Welcome to Meaningless Name Generator!' + '\n')
 more = None
 while more != 'N':
   num = int(input('Numbers of names you are looking for: '))
@@ -27,5 +27,5 @@ while more != 'N':
   print('\n')
   more = input('Looking more? (Enter "N" to exit): ')
 print('\n')
-print('Thanks for using Gaming Name Generator!')
+print('Thanks for using Meaningless Name Generator!')
 
