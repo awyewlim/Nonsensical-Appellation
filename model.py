@@ -143,7 +143,7 @@ def model(data, ix_to_char, char_to_ix, num_iterations = 35000, n_a = 50, names 
     np.random.shuffle(examples)
     
     a_prev = np.zeros((n_a, 1))
-    print('Your gaming name maker is learning. Please wait patiently...')
+    print('Your name maker is learning. Please wait patiently...')
     for j in range(num_iterations):
         idx = j % len(examples)
         single_example = examples[idx]
