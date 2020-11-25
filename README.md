@@ -1,2 +1,2 @@
 # nonsensical-appellation
-Meaningless Name Generator
+Meaningless Name Generator (New to NLP)
