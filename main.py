@@ -2,7 +2,7 @@ import numpy as np
 import random
 from model import *
 
-data = open('gaming_name.txt', 'r').read()
+data = open('training.txt', 'r').read()
 data= data.lower()
 chars = list(set(data))
 data_size, vocab_size = len(data), len(chars)
